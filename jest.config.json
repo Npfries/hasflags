@@ -1,0 +1,12 @@
+{
+	"verbose": true,
+	"transform": {
+		"^.+\\.tsx?$": "ts-jest"
+	},
+	"rootDir": "./src/",
+	"globals": {
+		"ts-jest": {
+			"tsconfig": "./tsconfig.json"
+		}
+	}
+}
