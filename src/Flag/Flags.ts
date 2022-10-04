@@ -47,7 +47,7 @@ class Flags<T extends keyof EnumType> {
 		this._flags = 0;
 	}
 
-	public get value() {
+	public get value(): number {
 		return this._flags;
 	}
 

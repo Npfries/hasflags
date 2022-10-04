@@ -2,7 +2,7 @@
 	"name": "has-flags",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"build": "rm -rf dist && npx tsup",
 		"test": "export TS_JEST_LOG=ts-jest.log && npx jest",
