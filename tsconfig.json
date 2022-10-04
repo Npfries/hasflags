@@ -1,0 +1,21 @@
+{
+	"ts-node": {
+		"moduleTypes": {
+			"jest.config.ts": "mjs"
+		}
+	},
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": "src",
+		"declaration": true,
+		"lib": ["ESNext"],
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"target": "ES6"
+	},
+	"exclude": ["dist", "node_modules", "**/*.test.ts"],
+	"include": ["src"]
+}
